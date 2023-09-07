@@ -1,0 +1,223 @@
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Global styles */
+  body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f5f5f5;
+    margin: 0;
+    padding: 0;
+    color: #333;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  header {
+    text-align: center;
+    padding: 20px;
+    background-color: #3498db;
+    color: #fff;
+  }
+  
+  h1 {
+    font-size: 36px;
+    margin: 0;
+    text-transform: uppercase;
+  }
+  
+  main {
+    padding: 20px;
+  }
+  
+  section {
+    margin-bottom: 30px;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Hero section styles */
+  #hero {
+    background-color: #3498db;
+    color: #fff;
+    text-align: center;
+    padding: 50px;
+  }
+  
+  #hero h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+  }
+  
+  #hero p {
+    font-size: 18px;
+    line-height: 1.6;
+  }
+  
+  #hero .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #fff;
+    color: #3498db;
+    text-transform: uppercase;
+    text-decoration: none;
+    margin-top: 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  #hero .btn:hover {
+    background-color: #3498db;
+    color: #fff;
+  }
+  
+  /* Features section styles */
+  #features h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+  }
+  
+  .feature {
+    margin-bottom: 20px;
+  }
+  
+  .feature h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .feature p {
+    font-size: 16px;
+    line-height: 1.6;
+  }
+  
+/* Stylish Contact Section */
+#contact {
+    background-color: #3498db;
+    color: #fff;
+    padding: 40px 0;
+    text-align: center;
+  }
+  
+  #contact h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+  }
+  
+  .contact-container {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  .contact-container p {
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+    text-align: left;
+  }
+  
+  label {
+    display: block;
+    font-weight: bold;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    font-size: 16px;
+    background-color: rgba(255, 255, 255, 0.1);
+    color: #fff;
+    margin-top: 5px;
+  }
+  
+  .contact-btn {
+    background-color: #fff;
+    color: #3498db;
+    border: none;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  .contact-btn:hover {
+    background-color: #258cd1;
+    color: #fff;
+  }
+
+/* Stylish Contact Information Section */
+#contact-info {
+    background-color: #333;
+    color: #fff;
+    padding: 40px 0;
+    text-align: center;
+  }
+  
+  #contact-info h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+  }
+  
+  .contact-info-container {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  .info {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  .info i {
+    font-size: 24px;
+    margin-right: 10px;
+  }
+  
+  .info p {
+    font-size: 18px;
+  }
+  
+  
+  /* Footer styles */
+  footer {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #333;
+    color: #fff;
+  }
+  
+  /* Media Queries for responsive design */
+  @media (max-width: 768px) {
+    h1 {
+      font-size: 32px;
+    }
+  
+    #hero h1 {
+      font-size: 36px;
+    }
+  }
+  
